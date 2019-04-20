@@ -1,0 +1,40 @@
+﻿@model System.Collections.Generic.List<SpaceFleet.Web.Models.DataAccessPostgreSqlProvider.DbSpaceShip>
+
+@{
+    ViewBag.Title = "Корабли нашего флота";
+    Layout = "_Layout";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@foreach (var ship in Model)
+{
+    <div>
+        @ship.Name
+        @ship.Build
+        @ship.Id
+        
+        <table class="table table-bordered table-responsive table-hover">
+            <thead><tr>
+                <td>Id</td>
+                <td>Экипаж</td>
+                <td>Откуда</td>
+                <td>Куда</td>
+                <td>Пассажиры</td>
+            </tr></thead>
+            @if (ship.Journal != null)
+            {
+                foreach (var sm in ship.Journal)
+                {
+                    <tr>
+                        <td>@sm.Id</td>
+                        <td>@sm.Crew</td>
+                        <td>@sm.From</td>
+                        <td>@sm.To</td>
+                        <td>@sm.Passengers</td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+}

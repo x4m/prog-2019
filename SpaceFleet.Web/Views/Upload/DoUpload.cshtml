@@ -1,0 +1,31 @@
+﻿@model SpaceFleet.SpaceShip
+
+@{
+    ViewBag.Title = "Космический корабль "+Model.Name;
+    Layout = "_Layout";
+}
+
+<h2>Космический корабль @Model.Name</h2>
+
+@Model.ShipType
+@Model.Build
+
+<table class="table table-bordered table-responsive table-hover">
+    <thead><tr>
+        <td>Плановый сервис</td>
+        <td>Дата</td>
+        <td>СТО</td>
+        <td>Описание</td>
+        <td>Следующее ТО</td>
+    </tr></thead>
+    @foreach (var sm in Model.ServiceMaintanance)
+    {
+        <tr>
+            <td>@sm.IsPlannedService</td>
+            <td>@sm.MaintananceDate</td>
+            <td>@sm.ServiceStationLocation</td>
+            <td>@sm.Description</td>
+            <td>@sm.NextPlannedSerice</td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,15 @@
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet.UI\bin\Debug\SpaceFleet.UI.exe.config
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet.UI\bin\Debug\SpaceFleet.UI.exe
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet.UI\bin\Debug\SpaceFleet.UI.pdb
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet.UI\obj\Debug\SpaceFleet.UI.csprojAssemblyReference.cache
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet.UI\obj\Debug\SpaceFleet.UI.Form1.resources
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet.UI\obj\Debug\SpaceFleet.UI.Properties.Resources.resources
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet.UI\obj\Debug\SpaceFleet.UI.csproj.GenerateResource.cache
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet.UI\obj\Debug\SpaceFleet.UI.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet.UI\obj\Debug\SpaceFleet.UI.exe
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet.UI\obj\Debug\SpaceFleet.UI.pdb
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet.UI\bin\Debug\SpaceFleet.dll
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet.UI\bin\Debug\SpaceFleet.pdb
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet.UI\obj\Debug\SpaceFleet.UI.FlightForm.resources
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet.UI\obj\Debug\SpaceFleet.UI.csproj.CopyComplete
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet.UI\obj\Debug\SpaceFleet.UI.ServiceMaitananceForm.resources

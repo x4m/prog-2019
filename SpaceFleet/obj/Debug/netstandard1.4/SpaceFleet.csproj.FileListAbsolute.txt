@@ -1,0 +1,9 @@
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet\bin\Debug\netstandard1.4\SpaceFleet.deps.json
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet\bin\Debug\netstandard1.4\SpaceFleet.dll
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet\bin\Debug\netstandard1.4\SpaceFleet.pdb
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet\obj\Debug\netstandard1.4\SpaceFleet.csprojAssemblyReference.cache
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet\obj\Debug\netstandard1.4\SpaceFleet.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet\obj\Debug\netstandard1.4\SpaceFleet.AssemblyInfo.cs
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet\obj\Debug\netstandard1.4\SpaceFleet.dll
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet\obj\Debug\netstandard1.4\SpaceFleet.pdb
+C:\Users\student\source\repos\SpaceFleet\SpaceFleet\obj\Debug\netstandard1.4\SpaceFleet.AssemblyInfoInputs.cache
