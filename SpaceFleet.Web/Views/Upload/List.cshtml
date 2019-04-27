@@ -13,15 +13,19 @@
         @ship.Name
         @ship.Build
         @ship.Id
-        
+
+        <img src="Image?id=@ship.Id" />
+
         <table class="table table-bordered table-responsive table-hover">
-            <thead><tr>
-                <td>Id</td>
-                <td>Экипаж</td>
-                <td>Откуда</td>
-                <td>Куда</td>
-                <td>Пассажиры</td>
-            </tr></thead>
+            <thead>
+                <tr>
+                    <td>Id</td>
+                    <td>Экипаж</td>
+                    <td>Откуда</td>
+                    <td>Куда</td>
+                    <td>Пассажиры</td>
+                </tr>
+            </thead>
             @if (ship.Journal != null)
             {
                 foreach (var sm in ship.Journal)

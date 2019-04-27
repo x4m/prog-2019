@@ -16,6 +16,7 @@ namespace SpaceFleet.Web.Models
         {
             public SpaceFleetDbContext()
             {
+
                 Database.EnsureCreated();
             }
 
@@ -24,7 +25,7 @@ namespace SpaceFleet.Web.Models
             }
 
             public DbSet<DbSpaceShip> SpaceShips { get; set; }
-            public DbSet<DbFlight> Flights { get; set; }
+            //public DbSet<DbFlight> Flights { get; set; }
             public static string ConnectionString { get; set; }
 
             protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -75,7 +76,7 @@ namespace SpaceFleet.Web.Models
 
             public int SpaceShipId { get; set; }
             [ForeignKey("SpaceShipId")]
-            public virtual SpaceShip SpaceShip { get; set; }
+            public virtual DbSpaceShip SpaceShip { get; set; }
 
             /// <summary>
             /// Откуда
