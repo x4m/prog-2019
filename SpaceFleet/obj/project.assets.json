@@ -3833,11 +3833,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\student\\source\\repos\\SpaceFleet\\SpaceFleet\\SpaceFleet.csproj",
+      "projectUniqueName": "C:\\Users\\student\\source\\repos\\prog-2019\\SpaceFleet\\SpaceFleet.csproj",
       "projectName": "SpaceFleet",
-      "projectPath": "C:\\Users\\student\\source\\repos\\SpaceFleet\\SpaceFleet\\SpaceFleet.csproj",
+      "projectPath": "C:\\Users\\student\\source\\repos\\prog-2019\\SpaceFleet\\SpaceFleet.csproj",
       "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\student\\source\\repos\\SpaceFleet\\SpaceFleet\\obj\\",
+      "outputPath": "C:\\Users\\student\\source\\repos\\prog-2019\\SpaceFleet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

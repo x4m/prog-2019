@@ -9,36 +9,37 @@
 
 @foreach (var ship in Model)
 {
-    <div>
-        @ship.Name
-        @ship.Build
-        @ship.Id
+<div>
+    @ship.Name
+    @ship.Build
+    @ship.Id
+    <a href="Print?id=@ship.Id">Напечатать в Excel</a>
 
-        <img src="Image?id=@ship.Id" />
+    <img src="Image?id=@ship.Id" />
 
-        <table class="table table-bordered table-responsive table-hover">
-            <thead>
-                <tr>
-                    <td>Id</td>
-                    <td>Экипаж</td>
-                    <td>Откуда</td>
-                    <td>Куда</td>
-                    <td>Пассажиры</td>
-                </tr>
-            </thead>
-            @if (ship.Journal != null)
+    <table class="table table-bordered table-responsive table-hover">
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>Экипаж</td>
+                <td>Откуда</td>
+                <td>Куда</td>
+                <td>Пассажиры</td>
+            </tr>
+        </thead>
+        @if (ship.Journal != null)
+        {
+            foreach (var sm in ship.Journal)
             {
-                foreach (var sm in ship.Journal)
-                {
-                    <tr>
-                        <td>@sm.Id</td>
-                        <td>@sm.Crew</td>
-                        <td>@sm.From</td>
-                        <td>@sm.To</td>
-                        <td>@sm.Passengers</td>
-                    </tr>
-                }
+                <tr>
+                    <td>@sm.Id</td>
+                    <td>@sm.Crew</td>
+                    <td>@sm.From</td>
+                    <td>@sm.To</td>
+                    <td>@sm.Passengers</td>
+                </tr>
             }
-        </table>
-    </div>
+        }
+    </table>
+</div>
 }

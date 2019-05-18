@@ -2,11 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>8465fafe-f213-420e-b124-dc7717b4decb</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="template.xlsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="template.xlsx" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.1.2" />
+    <PackageReference Include="NPOI" Version="2.4.1" />
   </ItemGroup>
 
   <ItemGroup>
